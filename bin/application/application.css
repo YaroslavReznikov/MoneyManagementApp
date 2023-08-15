@@ -1,0 +1,105 @@
+
+.upper {
+    -fx-text-fill : #8B008B;
+    -fx-padding: 30px;
+    -fx-border-insets: 25px;
+    -fx-background-insets: 25px;
+    -fx-translate-x: 100px;
+    -fx-min-width: 150px;
+    -fx-max-width: 150px;
+    -fx-min-height: 80px;
+    -fx-max-height: 80px;
+}
+
+.button {
+    -fx-background-color: pink;
+    -fx-translate-x: 125px;
+    -fx-text-fill : black;
+	-fx-font-weight: bold;
+    -fx-min-width: 180px;
+    -fx-max-width: 180px;
+    -fx-min-height: 60px;
+    -fx-max-height: 60px;
+    -fx-background-color: gray; /* Set the background color of the button */
+    -fx-background-radius: 30px; /* Set the radius for rounded corners */
+}
+.plusButton{
+    	-fx-translate-x: 717px;
+    	    -fx-min-width: 45px;
+    -fx-max-width: 45px;
+    -fx-min-height: 30px;
+    -fx-max-height: 30px;
+        	-fx-translate-y: 15px;
+        -fx-background-color: white;
+    
+	
+}
+.minusButton{
+    	-fx-translate-x: 542px;
+		    -fx-min-width: 45px;
+    -fx-max-width: 45px;
+    -fx-min-height: 30px;
+    -fx-max-height: 30px;
+        	-fx-translate-y: 15px;
+    -fx-background-color: white;
+}
+.root{
+	    -fx-background-color: white;
+	
+}
+
+.personalInfo {
+    -fx-text-fill: pink;
+    -fx-font-size: 10pt;
+    -fx-translate-x: 50px;
+    -fx-background-color: green;
+    -fx-padding: 4px; 
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-min-width: 300px; /* Set a fixed minimum width for the box */
+    -fx-max-width: 300px; /* Set a fixed maximum width for the box */
+    -fx-min-height: 70px; /* Set a fixed minimum height for the box */
+    -fx-max-height: 70px; /* Set a fixed maximum height for the box */
+    -fx-font-family: "Courier New", monospace;
+}
+.emptyPersonalInfo{
+	 -fx-text-fill: pink;
+    -fx-font-size: 10pt;
+    -fx-translate-x: 50px;
+    -fx-background-color: white;
+    -fx-padding: 4px; 
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-min-width: 300px; /* Set a fixed minimum width for the box */
+    -fx-max-width: 300px; /* Set a fixed maximum width for the box */
+    -fx-min-height: 70px; /* Set a fixed minimum height for the box */
+    -fx-max-height: 70px; /* Set a fixed maximum height for the box */
+    -fx-font-family: "Courier New", monospace;
+}
+.textField{
+	-fx-translate-x: 100px;
+	-fx-min-width: 225px;
+    -fx-max-width: 225px;
+    -fx-min-height: 30px;
+    -fx-max-height: 30px;
+}
+.circularControl {
+    -fx-background-color: lightblue;
+    -fx-background-radius: 50%;
+        -fx-padding: 10px;
+    	-fx-translate-x: 1000px;
+	    -fx-translate-y: -50px;
+	
+    
+}
+
+.circular-control Text:nth-child(1) {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.circular-control Text:nth-child(2) {
+    -fx-font-size: 16px;
+}
+
+
